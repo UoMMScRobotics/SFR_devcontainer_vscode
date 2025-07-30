@@ -1,0 +1,12 @@
+{
+  "name": "SFR_DEVCONTAINER_TEMPLATE",
+  "image": "ghcr.io/uommscrobotics/sfr_docker_builder:main",
+  "customizations": {
+    // Configure properties specific to VS Code.
+    "vscode": {
+      // Add the IDs of extensions you want installed when the container is created.
+      "extensions": ["streetsidesoftware.code-spell-checker",
+                      "ranch-hand-robotics.rde-pack"]
+    }
+  }
+}
